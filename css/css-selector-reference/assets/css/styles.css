@@ -1,0 +1,20 @@
+/*
+element, element (one comma)
+element element (without comma)
+element > element (greater-tham sign)
+*/
+
+/* Selects all "div" elements and all "p" elements */
+/* h1, p { 
+    background-color: yellow;
+} */
+
+/* Select and style every "p" element that is inside "div" elements */
+/* div p { 
+    background-color: yellow;
+} */
+
+/* Select all "p" elements where the parent is a "div" element */ 
+div > p { 
+    background-color: yellow;
+}

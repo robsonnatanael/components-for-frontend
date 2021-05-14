@@ -1,0 +1,242 @@
+.article-title {
+  color: #dee2e6;
+}
+
+.element-defined {
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 0px 0px 15px #dee2e6;
+
+  /* width | style | color */
+  border: 1px solid #dee2e6;
+
+  box-sizing: border-box;
+  width: 350px;
+  margin: auto;
+  box-sizing: border-box;
+  text-align: justify;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.element-defined > h3 {
+  text-align: center;
+  margin: 1.2rem 0 0 0;
+}
+
+.element-defined img {
+  max-width: 100%;
+}
+
+.element-defined p {
+  margin: 1.2rem 0 0 0;
+  line-height: 1.8rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.letter-spacing {
+  font-family: "Hind", sans-serif;
+  box-sizing: border-box;
+  width: 300px;
+  margin: 1rem;
+}
+
+.letter-spacing h3 {
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.letter-spacing a {
+  font-weight: 800;
+  text-decoration: none;
+  color: #2a8fea;
+}
+
+.spacing h3 {
+  letter-spacing: -0.05rem;
+}
+
+.material-icons {
+  vertical-align: middle;
+  color: #2a8fea;
+}
+
+.material-icons-outlined {
+  vertical-align: middle;
+  color: #2a8fea;
+}
+
+.later {
+  color: #60d394;
+}
+
+.before {
+  color: #ee6055;
+}
+
+.icon-consistency {
+  margin: 2rem;
+  box-sizing: border-box;
+  max-width: 500px;
+  display: flex;
+}
+
+.icon-consistency p {
+  margin: 0.8rem 0;
+}
+
+.icon-consistency img {
+  max-width: 45%;
+  margin: 0.5rem;
+}
+
+.icons-consistency-bar {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dee2e6;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.icons-consistency-bar span {
+  cursor: pointer;
+}
+
+.box-consistency {
+  margin: 1rem;
+}
+
+.typeface {
+  max-width: 550px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0px 0px 15px #dee2e6;
+  border: 1px solid #dee2e6;
+}
+
+.typeface img {
+  max-width: 550px;
+}
+
+/* font-weight
+      https://developer.mozilla.org/pt-BR/docs/Web/CSS/font-weight
+*/
+
+/*  */
+.typeface img + p {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #2a8fea;
+  margin: 1.5rem;
+}
+
+.typeface p + p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1.5rem;
+}
+
+.typeface > p:last-child {
+  font-weight: normal;
+  margin: 1.5rem;
+}
+
+.whitespace {
+  max-width: 350px;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.whitespace .p-icon {
+  text-align: left;
+  margin-top: 0;
+}
+
+.whitespace .avatar {
+  max-width: 80px;
+}
+
+.whitespace ul {
+  list-style: none;
+  padding: 0;
+}
+
+.whitespace ul li {
+  display: inline;
+  font-size: 1.5rem;
+  color: #2a8fea;
+}
+
+.whitespace img + p {
+  color: #2a8fea;
+  font-weight: 500;
+}
+
+.whitespace h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.whitespace-later p,
+.whitespace-later h3 {
+  margin-top: 0.5rem;
+}
+
+.whitespace-later ul {
+  margin-top: 1.5rem;
+}
+
+.whitespace-later ul li {
+  padding: 1rem;
+}
+
+.whitespace a {
+  color: #2a8fea;
+}
+
+.long-form {
+  font-family: "Hind", sans-serif;
+  max-width: 650px;
+  font-size: 20pt;
+}
+
+.long-form h3 {
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.long-form p {
+  font-size: 20pt;
+  margin: 30px 0;
+}
+
+.content-scale {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-scale .type {
+  flex: 1;
+  text-align: right;
+}
+
+.content-scale .scale {
+  min-width: 125px;
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  background-color: #2a8fea;
+}
+
+/* Seletores
+      https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+*/

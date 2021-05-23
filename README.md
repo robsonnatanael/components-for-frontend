@@ -12,7 +12,7 @@
     <a href="#sobre">Sobre</a> &#xa0; | &#xa0;
     <a href="#tecnologias">Tecnologias</a> &#xa0; | &#xa0;
     <a href="#licença">Licença</a> &#xa0; | &#xa0;
-    <a href="https://github.com/robsonnatanael" target="_blank">Autor</a> &#xa0; | &#xa0;
+    <a href="https://github.com/robsonnatanael" target="_blank">Autor</a>
   </p>
 </div>
 

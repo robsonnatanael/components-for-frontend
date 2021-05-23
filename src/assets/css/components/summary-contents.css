@@ -1,0 +1,35 @@
+.summary {
+  font-family: var(--font-content);
+}
+
+.summary .contents {
+  text-align: left;
+}
+
+.summary h1 {
+  font-size: 2.3rem;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.summary h2 {
+  font-family: var(--font-title);
+  line-height: 3rem;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.summary a {
+  text-decoration: none;
+  color: var(--cor-link);
+}
+
+.summary a:hover {
+  color: var(--cor-hover);
+}
+
+.summary ol {
+  list-style: decimal;
+  padding-left: 1rem;
+}

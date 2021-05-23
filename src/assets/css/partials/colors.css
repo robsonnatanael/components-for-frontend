@@ -1,0 +1,19 @@
+:root {
+  --cor-background: #f1f1f1;
+  --cor-background-footer: #212529;
+  --cor-text-footer: #adb5bd;
+  --cor-link: #212529;
+  --cor-hover: #fb8500;
+
+  /* Color Pallete
+    Reference:
+    https://coolors.co/palettes/trending
+    */
+
+  /* for debug */
+  --cor-1: #8ecae6;
+  --cor-2: #219ebc;
+  --cor-3: #023047;
+  --cor-4: #ffb703;
+  --cor-5: #fb8500;
+}

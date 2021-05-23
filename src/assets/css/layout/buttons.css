@@ -1,0 +1,29 @@
+button {
+  padding: 1rem;
+  margin: 1rem;
+  min-width: 10rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  color: var(--cor-hover);
+}
+
+button i {
+  font-size: 1.3rem;
+  margin-right: 0.5rem;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+}
+
+@media (min-width: 1008px) {
+  .btn {
+    margin-top: 1.5rem;
+  }
+}

@@ -1,0 +1,19 @@
+.contents {
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media (min-width: 1008px) {
+  .contents {
+    max-width: 60%;
+    margin: 2rem auto;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+}

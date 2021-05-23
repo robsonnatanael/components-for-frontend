@@ -1,0 +1,29 @@
+footer {
+  box-sizing: border-box;
+  background-color: var(--cor-background-footer);
+  color: var(--cor-text-footer);
+}
+
+footer p {
+  text-align: center;
+}
+
+footer a {
+  color: var(--cor-text-footer);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--cor-hover);
+}
+
+footer ul {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0.8rem;
+}
+
+footer ul li {
+  display: inline;
+  padding: 0.5rem;
+}

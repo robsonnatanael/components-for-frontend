@@ -15,6 +15,8 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined");
 @import url("../fontawesome-free/all.css");
 
+@import url("./main/onboarding-experience.css");
+
 * {
   margin: 0;
 }

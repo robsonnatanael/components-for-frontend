@@ -1,0 +1,106 @@
+:root {
+  --cor-white: #fff;
+  --cor-white-transparent: rgba(255, 255, 255, .8);
+  --cor-black-transparent: rgba(0, 0, 0, .1);
+}
+
+.wrapper-phone {
+  position: relative;
+}
+
+.phone {
+  width: 454px;
+  height: 618px;
+  background-image: url(../../images/phone-454-618.png);
+  background-repeat: no-repeat;
+}
+
+.screen-phone {
+  position: absolute;
+  top: 83px;
+  left: 99px;
+}
+
+.screen {
+  background-color: var(--cor-black-transparent);
+  color: var(--cor-white);
+  position: absolute;
+  top: 83px;
+  left: 99px;
+  width: 250px;
+  height: 444px;
+}
+
+.wrapper-phone .nav-phone p {
+  position: absolute;
+  top: 95px;
+  left: 300px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--cor-white-transparent);
+}
+
+.wrapper-phone .nav-phone p:hover {
+  color: var(--cor-white);
+}
+
+.wrapper-phone .nav-phone .nav {
+  position: absolute;
+  top: 480px;
+  left: 192px;
+} 
+
+.wrapper-phone .nav div {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: var(--cor-white-transparent);
+  margin: 3px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.wrapper-phone .nav div:hover {
+  background-color: var(--cor-white);
+  width: 13px;
+  height: 13px;
+  align-items: center;
+}
+
+.wrapper-phone .nav-phone-later p {
+  position: absolute;
+  top: 480px;
+  left: 210px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--cor-white-transparent);
+}
+
+.wrapper-phone .nav-phone-later p:hover {
+  color: var(--cor-white);
+}
+
+.wrapper-phone .nav-phone-later .nav-later {
+  position: absolute;
+  top: 450px;
+  left: 192px;
+} 
+
+.wrapper-phone .nav-later div {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: var(--cor-white-transparent);
+  margin: 3px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.wrapper-phone .nav-later div:hover {
+  background-color: var(--cor-white);
+  width: 13px;
+  height: 13px;
+  align-items: center;
+}
